@@ -1,0 +1,5 @@
+name: zShopAPi
+author: Maxlego08
+main: fr.maxlego08.shop.example.ZShop
+version: 1.0.0.0
+commands:
