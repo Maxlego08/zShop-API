@@ -1,4 +1,4 @@
-<p align="center"><img src="https://img.groupez.xyz/zshop/shop.png" width="200" alt="zShop"></p>
+<p align="center"><img src="https://img.groupez.xyz/zshop/shop.png" width="100" alt="zShop"></p>
 
 # zShop
 
