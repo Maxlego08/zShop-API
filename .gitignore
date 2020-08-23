@@ -1,4 +1,7 @@
-﻿*.prefs
-bin
-.project
-/bin1/
+# Don't track content of these folders
+target/
+bin/
+.settings/
+doc/
+doc
+.classpath

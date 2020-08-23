@@ -2,11 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/zShop.jar"/>
-	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/spigot-1.13.2.jar"/>
-	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/Citizens.jar"/>
-	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/expbank-6.0.0.jar"/>
-	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/MySQLTokens.jar"/>
-	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/TokenManager-3.2.4.jar"/>
-	<classpathentry kind="output" path="bin1"/>
+	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/Vault-1.7.3.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/jar/Citizens.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/jar/expbank-6.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/jar/MySQLTokens.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/jar/TokenManager-3.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/Plugin zAuctionHouse/PlayerPoints.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/jar/IceCore_3.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveur1.16/spigot-1.16.2.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Maxlego08/Desktop/Serveur dev/Serveurdedev/plugins/zShop/jar/zShop.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
