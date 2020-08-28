@@ -1,5 +1,10 @@
 package fr.maxlego08.shop.api.enums;
 
+import org.bukkit.Bukkit;
+
+import fr.maxlego08.shop.api.events.EconomyCurrencyEvent;
+import fr.maxlego08.shop.save.Lang;
+
 public enum Economy {
 
 	VAULT,
@@ -31,7 +36,24 @@ public enum Economy {
 	}
 
 	public String getCurrenry() {
-		return "curreny";
+		switch (this) {
+		case PLAYERPOINT:
+			return Lang.currencyPlayerPoint;
+		case VAULT:
+			return Lang.currencyVault;
+		case TOKENMANAGER:
+			return Lang.currencyTokenManager;
+		case MYSQLTOKEN:
+			return Lang.currencyMySQLToken;
+		case ICECORE:
+			return Lang.currencyIceToken;
+		case CUSTOM:
+			EconomyCurrencyEvent event = new EconomyCurrencyEvent();
+			Bukkit.getPluginManager().callEvent(event);
+			return event.getCurrency();
+		default:
+			return "$";
+		}
 	}
 
 }
