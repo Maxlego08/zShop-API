@@ -11,5 +11,5 @@ Discord: https://discord.gg/B2hnr7t<br>
 Javadoc V1: https://docs.groupez.xyz/zshop/v1/
 <br>Javadoc V2: https://docs.groupez.xyz/zshop/v2/
 
-<p align="center"><img src="https://img.groupez.xyz/zshop/img1.png" width="450" alt="zShop"></p>
-<p align="center"><img src="https://img.groupez.xyz/zshop/buy.png" width="450" alt="zShop"></p>
+<p align="center"><img src="https://img.groupez.xyz/zshop/new/shop.gif" alt="zShop"></p>
+<p align="center"><img src="https://img.groupez.xyz/zshop/new/buy.gif" alt="zShop"></p>
