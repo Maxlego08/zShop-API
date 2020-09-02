@@ -94,3 +94,22 @@ items:
     type: INVENTORY
     inventory: "mobs"
     slot: 19
+  test:
+    item:
+      material: PLAYER_HEAD
+      name: "HEAD&a%player_name%"
+      glow: true
+      lore:
+        - "&7You have &3%statistic_mine_block%"
+    type: NONE
+    slot: 31
+    action: SUPERIOR
+    placeHolder: "%statistic_mine_block%"
+    value: 60
+    else:
+      type: NONE
+      item:
+        material: REDSTONE
+        name: "&cYou don't have permission !"
+        lore:
+          - "&7You have &f%statistic_mine_block% &7on &360 &7mined blocks."

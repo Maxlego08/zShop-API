@@ -1,0 +1,110 @@
+name: "&3Spawners"
+size: 45
+items:
+  back:
+    item:
+      material: BARRIER
+      name: "&cBack"
+    type: BACK
+    isPermanent: true
+    slot: 40
+  blue:
+    type: NONE_SLOT
+    item:
+      material: BLUE_STAINED_GLASS_PANE
+      name: "&7 "
+    slots:
+      - 0
+      - 1
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 43
+      - 44
+      - 37
+  light:
+    type: NONE_SLOT
+    item:
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: "&7 "
+    slots:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 38
+      - 39
+      - 41
+      - 42
+  1:
+    item:
+      material: ZOMBIE_SPAWN_EGG
+      name: "&fZombie spawner"
+    buyPrice: 100.0
+    type: ZSPAWNER
+    slot: 20
+    entity: ZOMBIE
+    zpawnerAction: GIVE
+    lore:
+      - "&f» &2Buying price&7: &a%buyPrice%%currency%"
+      - ""
+      - "&f» &7Click to buy and confirm"
+  2:
+    item:
+      material: SKELETON_SPAWN_EGG
+      name: "&fSkeleton spawner"
+    buyPrice: 100.0
+    type: ZSPAWNER
+    slot: 21
+    entity: SKELETON
+    zpawnerAction: GIVE
+    lore:
+      - "&f» &2Buying price&7: &a%buyPrice%%currency%"
+      - ""
+      - "&f» &7Click to buy and confirm"
+  3:
+    item:
+      material: CREEPER_SPAWN_EGG
+      name: "&fCreeper spawner"
+    buyPrice: 100.0
+    type: ZSPAWNER
+    slot: 22
+    entity: CREEPER
+    zpawnerAction: GIVE
+    lore:
+      - "&f» &2Buying price&7: &a%buyPrice%%currency%"
+      - ""
+      - "&f» &7Click to buy and confirm"
+  4:
+    item:
+      material: SPIDER_SPAWN_EGG
+      name: "&fSpider spawner"
+    buyPrice: 100.0
+    type: ZSPAWNER
+    slot: 23
+    entity: SPIDER
+    zpawnerAction: GIVE
+    lore:
+      - "&f» &2Buying price&7: &a%buyPrice%%currency%"
+      - ""
+      - "&f» &7Click to buy and confirm"
+  5:
+    item:
+      material: BEE_SPAWN_EGG
+      name: "&fBee spawner"
+    buyPrice: 100.0
+    type: ZSPAWNER
+    slot: 24
+    entity: BEE
+    zpawnerAction: GIVE
+    lore:
+      - "&f» &2Buying price&7: &a%buyPrice%%currency%"
+      - ""
+      - "&f» &7Click to buy and confirm"
